@@ -46,10 +46,16 @@ n_clusters_ = len(labels_unique)
 #print("number of estimated clusters : %d" % n_clusters_)
 large_clusters = set()
 clusters_centers = []
+i = 0
 for label in np.unique(y):
     if (np.sum(y == label) > 15):
         large_clusters.add(label)
         clusters_centers.append(X[y == label].mean(axis=0))
+        i += 1
 
 clusters_centers = np.array(clusters_centers)
-print clusters_centers
+print len(clusters_centers)
+print i
+
+for center in clusters_centers:
+    print center[0], ',', center[1]
