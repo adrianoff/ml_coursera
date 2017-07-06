@@ -1,0 +1,9 @@
+Log file created at: 2017/06/17 13:42:35
+Running on machine: MacBook-Pro-Pavel.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0617 13:42:35.102218 87838720 helpers.cc:211] File already exists: school_batches/aaaaaa.batch
+W0617 13:42:35.116829 88375296 helpers.cc:211] File already exists: school_batches/aaaaab.batch
+W0617 13:42:35.130643 87302144 helpers.cc:211] File already exists: school_batches/aaaaac.batch
+W0617 13:42:35.145063 86765568 helpers.cc:211] File already exists: school_batches/aaaaad.batch
+W0617 13:42:35.221289 87838720 helpers.cc:211] File already exists: school_batches/aaaaae.batch
+W0617 16:14:25.423063 2649691072 check_messages.h:966] Inconsistent fields size in ThetaMatrix: 476 vs 0 vs 476 vs 0;
