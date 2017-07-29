@@ -58,6 +58,5 @@ def proportions_diff_confint_rel(sample1, sample2, alpha=0.05):
     return (left_boundary, right_boundary)
 
 
-
 print proportions_diff_z_test(proportions_diff_z_stat_rel(test_labels != predict1, test_labels != predict2))
 print proportions_diff_confint_rel(test_labels != predict1, test_labels != predict2)
