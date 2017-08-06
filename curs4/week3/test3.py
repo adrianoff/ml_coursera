@@ -17,4 +17,4 @@ for i, lhs_column in enumerate(df.columns):
         #print lhs_column, rhs_column, wilcoxon(df[lhs_column], df[rhs_column])
 
 print multipletests(p_values, alpha=0.05, method='holm')
-print multipletests(p_values, alpha=0.05, method='fdr_bh') 
+print multipletests(p_values, alpha=0.05, method='fdr_bh')
