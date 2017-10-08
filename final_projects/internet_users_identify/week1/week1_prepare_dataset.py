@@ -53,7 +53,27 @@ def prepare_train_set2(path_to_csv_files, session_length=10):
 
     return sessions_df, site_dict
 
-train_data, site_freq_users = prepare_train_set2(os.path.join(PATH_TO_DATA, '150users/'), session_length=10)
+#train_data, site_freq_users = prepare_train_set2(os.path.join(PATH_TO_DATA, '150users/'), session_length=10)
+#print (train_data.shape)
+#print (len(site_freq_users))
 
-print (train_data.shape)
-print (len(site_freq_users))
+train_data_toy, site_freq_users_toy = prepare_train_set2(os.path.join(PATH_TO_DATA, '3users/'), session_length=10)
+X_toy, y_toy = train_data_toy.iloc[:, :-1], train_data_toy.iloc[:, -1]
+X_toy_matrix = X_toy.as_matrix()
+
+print (X_toy)
+print (y_toy)
+
+
+def matrix_to_sparse_matrix(matrix):
+    from scipy.sparse import csr_matrix
+
+    matrix_shape = matrix.shape
+    NMZ = np.prod(np.array(matrix_shape))
+    data = np.array([1] * NMZ)
+    indptr = np.arange(0, NMZ + matrix.shape[1], matrix.shape[1])
+    return csr_matrix((data, matrix.reshape(-1), indptr), dtype=int)[:, 1:]
+
+X_sparse_toy = matrix_to_sparse_matrix(X_toy_matrix)
+print (X_sparse_toy.todense())
+pass
