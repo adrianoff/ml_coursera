@@ -1,0 +1,312 @@
+<response>
+great camera
+certain positive
+</response>
+<response>
+bad camera
+probably positive
+</response>
+<response>
+bad camera
+probably positive
+</response>
+<response>
+bad camera, suck
+probably negative
+</response>
+<response>
+bad camera, suck
+probably negative
+</response>
+<response>
+bad camera, suck
+probably negative
+</response>
+<response>
+bad camera, suck
+probably negative
+</response>
+<response>
+bad camera, suck
+probably negative
+</response>
+<response>
+bad camera, suck
+probably negative
+</response>
+<response>
+bad camera, suck
+probably negative
+</response>
+<response>
+I dont like this camera
+ positive
+</response>
+<response>
+I dont like this camera
+ positive
+</response>
+<response>
+I dont like this camera
+ positive
+</response>
+<response>
+I dont like this camera crap
+neutral or uncertain positive
+</response>
+<response>
+I dont like this camera it is crap
+ positive
+</response>
+<response>
+I dont like this camera it is crap
+ positive
+</response>
+<response>
+I dont like this camera it is crap
+ positive
+</response>
+<response>
+I dont like this camera it is crap
+ positive
+</response>
+<response>
+I dont like this camera it is crap
+ positive
+</response>
+<response>
+I dont like this camera it is crap very crap
+probably positive
+</response>
+<response>
+I dont like this camera it is crap very crap fuck
+probably positive
+</response>
+<response>
+bad
+neutral or uncertain negative
+</response>
+<response>
+good
+ positive
+</response>
+<response>
+takes excellent photos
+certain positive
+</response>
+<response>
+takes excellent photos
+certain positive
+</response>
+<response>
+takes excellent photos
+certain positive
+</response>
+<response>
+takes excellent photos
+certain positive
+</response>
+<response>
+takes excellent photos
+certain positive
+</response>
+<response>
+i love this phone .	
+certain positive
+</response>
+<response>
+i love this phone .	
+certain positive
+</response>
+<response>
+i love this phone .	
+certain positive
+</response>
+<response>
+i love this phone .	
+certain positive
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
+<response>
+i replaced it with a router raizer and it works much better .	
+certain negative
+</response>
