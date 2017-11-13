@@ -4,8 +4,8 @@ from sklearn.externals import joblib
 
 class SentimentClassifier(object):
     def __init__(self):
-        self.model = joblib.load("./DefaultLogisticBigramUnprocessedTextSentiment.pkl")
-        self.vectorizer = joblib.load("./BigramUnprocessedVectorizer.pkl")
+        self.model = joblib.load("./model/classifier.pkl")
+        self.vectorizer = joblib.load("./model/vectorizer.pkl")
         self.classes_dict = {0: "negative", 1: "positive", -1: "prediction error"}
 
     @staticmethod

@@ -1,0 +1,8 @@
+<response>
+it 's easy enough to pop it open to see what song you 're listening to .
+certain positive
+</response>
+<response>
+do n't buy this player .
+ negative
+</response>
