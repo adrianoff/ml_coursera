@@ -6,7 +6,7 @@ Id,y
 4,pos
 5,pos
 6,pos
-7,pos
+7,neg
 8,neg
 9,pos
 10,neg
@@ -18,7 +18,7 @@ Id,y
 16,pos
 17,neg
 18,pos
-19,pos
+19,neg
 20,pos
 21,neg
 22,pos
@@ -28,7 +28,7 @@ Id,y
 26,pos
 27,pos
 28,neg
-29,neg
+29,pos
 30,neg
 31,pos
 32,neg
@@ -46,7 +46,7 @@ Id,y
 44,neg
 45,pos
 46,pos
-47,neg
+47,pos
 48,neg
 49,neg
 50,neg
