@@ -1,33 +1,39 @@
-__author__ = 'xead'
+# -*- coding: utf-8 -*-
+__author__ = 'adrianoff'
+
 from sklearn.externals import joblib
 import pymorphy2
+import sys
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 
 class SentimentClassifier(object):
     def __init__(self):
         self.model = joblib.load("./model/classifier.pkl")
         self.vectorizer = joblib.load("./model/vectorizer.pkl")
-        self.classes_dict = {0: "negative", 1: "positive", -1: "prediction error"}
+        self.classes_dict = {0: 'негативный', 1: 'позитивный', -1: 'Ошибка'}
 
     @staticmethod
     def get_probability_words(probability):
         if probability < 0.55:
-            return "neutral or uncertain"
+            return u"нейтральный или вероятно"
         if probability < 0.7:
-            return "probably"
+            return u"вероятно"
         if probability > 0.95:
-            return "certain"
+            return u"определенно"
         else:
             return ""
 
     def predict_text(self, text):
-        #try:
-        vectorized = self.vectorizer.transform([SentimentClassifier.clean_str(text)])
-        return self.model.predict(vectorized)[0],\
-               self.model.predict_proba(vectorized)[0].max()
-        #except Exception as e:
-        #    print e.message
-        #    return -1, 0.8
+        try:
+            vectorized = self.vectorizer.transform([SentimentClassifier.clean_str(text)])
+            return self.model.predict(vectorized)[0],\
+                self.model.predict_proba(vectorized)[0].max()
+        except Exception as e:
+            print e.message
+            return -1, 0.8
 
     def predict_list(self, list_of_texts):
         try:

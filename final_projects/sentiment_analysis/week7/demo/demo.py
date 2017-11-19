@@ -1,8 +1,18 @@
-__author__ = 'xead'
+# -*- coding: utf-8 -*-
+__author__ = 'adrianoff'
+
+
 from sentiment_classifier import SentimentClassifier
 from codecs import open
 import time
 from flask import Flask, render_template, request
+
+import sys
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+
 app = Flask(__name__)
 
 print "Preparing classifier"
@@ -25,7 +35,7 @@ def index_page(text="", prediction_message=""):
 	print >> logfile, "</response>"
 	logfile.close()
 	
-    return render_template('hello.html', text=text, prediction_message=prediction_message)
+    return render_template('template.html', text=text, prediction_message=prediction_message)
 
 
 if __name__ == "__main__":

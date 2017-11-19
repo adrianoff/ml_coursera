@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Sentiment Analysis Demo</title>
+    </head>
+
+    <body style='font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;'>
+        <div class="jumbotron bg-info text-white text-center">
+            <h1><a class="text-white" href="/sentiment-demo">Sentiment Analysis Demo</a></h1>
+            <p>Smartphones reviews example</p>
+        </div>
+
+        <div class="container">
+            <div class="smart-template text-center">
+                <form action="{{ url_for('index_page') }}" method=post>
+                    <dl>
+                        <dd><textarea placeholder="Введите отзыв на смартфон." name=text rows=5 cols=40>{{ text }}</textarea>
+                        <dd><input type=submit class="btn btn-info" value="Оценить">
+                    </dl>
+                </form>
+
+                {% if prediction_message %}
+                    <br>Оценка:
+                    <b>
+                        {{ prediction_message }}
+                    </b>
+                {% endif %}
+            </div>
+        </div>
+    </body>
+</html>
