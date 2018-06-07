@@ -1,0 +1,11 @@
+# Tensorflow weights
+*.npz
+
+# Lectures pdfs
+**/Lectures/
+
+# Other
+**/.ipynb_checkpoints/
+
+# Capstone project datasets
+/6 Data analysis project/1 Internet users pattern mining/Dataset/cez13/
